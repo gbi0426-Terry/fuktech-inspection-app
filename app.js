@@ -12,6 +12,7 @@ const FORMS = {
     sub: "機器名稱：電動堆高機　型號：8FBR20",
     dept: "潤淨設備整建部",
     freq: "day",
+    image: "images/forklift.svg",
     items: [
       { no: 1, name: "A.電動方向盤　B.警示燈/方向燈　C.安全裝置", method: "操作檢查" },
       { no: 2, name: "A.輪胎狀況　B.照明　C.電瓶", method: "目視檢查" },
@@ -30,6 +31,7 @@ const FORMS = {
     sub: "部門：磁石組立　區域：有機溶劑作業區",
     dept: "磁石組立部",
     freq: "day",
+    image: "images/solvent.svg",
     items: [
       { no: 1, name: "容器加蓋密閉、無洩漏", method: "目視檢查" },
       { no: 2, name: "化學品標示清晰、存放區標示正確", method: "目視檢查" },
@@ -48,6 +50,7 @@ const FORMS = {
     sub: "廠區/區域：　管理部門：　查檢人：",
     dept: "工安室",
     freq: "month",
+    image: "images/chem.svg",
     items: [
       { no: 1, name: "化學品儲存容器上有依法定標示", method: "判定標準：可辨識" },
       { no: 2, name: "儲存空間有明確標示擺放位置", method: "判定標準：有標示" },
@@ -65,6 +68,7 @@ const FORMS = {
     sub: "設置地點：一廠總機　機器型號：ARK-501　管理員：謝定甫",
     dept: "工安室",
     freq: "month",
+    image: "images/aed.svg",
     items: [
       { no: 1, name: "本月 AED 機體外觀／電源指示燈檢查", method: "正常／異常" },
     ],
@@ -150,7 +154,7 @@ function renderPhone(formKey) {
       <span class="back">‹</span>
       <span class="title">巡檢填報</span>
     </div>
-    <div class="app-banner">
+    <div class="app-banner" style="background-image:url('${f.image}')">
       <span class="form-no">${f.code}</span>
     </div>
     <div class="app-body">

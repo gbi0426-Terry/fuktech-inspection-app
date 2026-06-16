@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#37474f"/>
+      <stop offset="1" stop-color="#1c2531"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#sky3)"/>
+  <rect x="0" y="195" width="400" height="45" fill="#22282f"/>
+  <!-- warning floor sign -->
+  <polygon points="200,150 230,200 170,200" fill="#fdd835"/>
+  <text x="200" y="194" font-size="22" fill="#3e3e3e" text-anchor="middle" font-family="Arial">!</text>
+  <!-- shelf with bottles -->
+  <rect x="30" y="50" width="340" height="6" fill="#455a64"/>
+  <rect x="30" y="120" width="340" height="6" fill="#455a64"/>
+  <g>
+    <rect x="50" y="70" width="22" height="48" rx="4" fill="#26a69a"/>
+    <rect x="90" y="65" width="22" height="53" rx="4" fill="#42a5f5"/>
+    <rect x="130" y="75" width="22" height="43" rx="4" fill="#ab47bc"/>
+    <rect x="280" y="68" width="24" height="50" rx="4" fill="#7cb342"/>
+    <rect x="320" y="72" width="24" height="46" rx="4" fill="#fb8c00"/>
+  </g>
+  <!-- SDS clipboard -->
+  <g>
+    <rect x="170" y="60" width="50" height="62" rx="4" fill="#eceff1"/>
+    <rect x="178" y="50" width="34" height="12" rx="3" fill="#90a4ae"/>
+    <line x1="180" y1="78" x2="212" y2="78" stroke="#90a4ae" stroke-width="3"/>
+    <line x1="180" y1="90" x2="212" y2="90" stroke="#90a4ae" stroke-width="3"/>
+    <line x1="180" y1="102" x2="200" y2="102" stroke="#90a4ae" stroke-width="3"/>
+  </g>
+  <rect x="0" y="220" width="400" height="20" fill="#10141a"/>
+</svg>
