@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>富泰空調 巡檢填報系統</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page-wrap">
+  <header class="page-header">
+    <h1>富泰空調科技 巡檢填報系統</h1>
+    <p>依「FW_帆軟-填報功能-範例」四份單位點檢表製作的行動填報原型</p>
+  </header>
+
+  <nav class="form-tabs" id="formTabs">
+    <button class="tab-btn active" data-form="forklift">機具設備每日點檢表<br><small>電動堆高機</small></button>
+    <button class="tab-btn" data-form="solvent">有機溶劑每日點檢表<br><small>磁石組立</small></button>
+    <button class="tab-btn" data-form="chem">化學品區域查檢表<br><small>每月查檢</small></button>
+    <button class="tab-btn" data-form="aed">AED 日常檢查紀錄表<br><small>每月檢查</small></button>
+  </nav>
+
+  <main class="phone-stage">
+    <div class="phone">
+      <div class="phone-notch"></div>
+      <div class="phone-screen" id="phoneScreen">
+        <!-- rendered by app.js -->
+      </div>
+    </div>
+
+    <div class="side-note" id="sideNote"></div>
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
